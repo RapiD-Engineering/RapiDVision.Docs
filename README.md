@@ -1,4 +1,4 @@
-# RapiD Engineering Documentation
+# RapiD Vision Documentation
 
 This is the MkDocs documentation site for RapiD Engineering products.
 
@@ -25,14 +25,14 @@ This is the MkDocs documentation site for RapiD Engineering products.
 
 ```
 docs/
-├── mkdocs.yml              # MkDocs configuration
-├── docs/                   # Documentation source files
-│   ├── assets/             # Static assets (images, icons, etc.)
-│   ├── index.md            # Home page
-│   ├── rapid-vision/       # RapiD Vision documentation
+├── mkdocs.yml                  # MkDocs configuration
+├── docs/                       # Documentation source files
+│   ├── assets/                 # Static assets (images, icons, etc.)
+│   ├── index.md                # Home page
+│   ├── rapid-vision/           # RapiD Vision documentation
 │   ├── rapid-vision-explorer/  # RapiD Vision Explorer documentation
-│   └── rapid-vision-api/   # RapiD Vision API documentation
-└── site/                   # Built site (generated, not in git)
+│   └── rapid-vision-api/       # RapiD Vision API documentation
+└── site/                       # Built site (generated, not in git)
 ```
 
 ## Features
@@ -47,4 +47,4 @@ docs/
 
 - **RapiD Vision**: Main vision processing application
 - **RapiD Vision Explorer**: Data exploration and analysis tool
-- **RapiD Vision API**: RESTful API and SignalR services
+- **RapiD Vision API**: RESTful API
