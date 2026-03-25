@@ -101,3 +101,8 @@ nav:
     - Invoice: rapid-vision-api/invoice.md
     - InvoiceRule: rapid-vision-api/invoicerule.md
     - Products: rapid-vision-api/products.md
+  - Maintenance:
+    - Overview: maintenance/index.md
+    - Troubleshooting: maintenance/troubleshooting.md
+    - FAQ: maintenance/faq.md
+

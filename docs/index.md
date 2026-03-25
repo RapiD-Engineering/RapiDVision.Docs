@@ -13,6 +13,9 @@ Advanced data exploration and analysis tool for vision system outputs.
 ### RapiD Vision API
 RESTful API and SignalR services for integration with RapiD Vision systems.
 
+### Maintenance
+Maintenance of RapiD Vision Systems
+
 ---
 
 Select a product from the navigation to get started.
