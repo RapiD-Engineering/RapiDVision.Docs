@@ -12,3 +12,9 @@
   flex: 0 0 0.95rem;
   background: url("../favicon.ico") center / contain no-repeat;
 }
+
+[data-md-color-scheme="default"] .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--nested > .md-nav__link::before {
+  background: url("../favicon_lightmode.ico") center / contain no-repeat;
+}
+
+
