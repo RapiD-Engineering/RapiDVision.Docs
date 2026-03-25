@@ -1,0 +1,80 @@
+site_name: RapiD Engineering Documentation
+site_url: https://rapidvision.com
+repo_url: https://github.com/RapiD-Engineering/RapiDVision
+repo_name: RapiD-Engineering/RapiDVision
+docs_dir: docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - RapiD Vision:
+    - Overview: rapid-vision/index.md
+    - Camera Calibration: rapid-vision/camera-calibration.md
+    - Connecting a Robot: rapid-vision/connecting-a-robot.md
+    - Calibrating a Robot: rapid-vision/calibrating-a-robot.md
+    - Encoder Info: rapid-vision/encoder-info.md
+    - Sorting Recipes: rapid-vision/sorting-recipes.md
+    - Camera Settings: rapid-vision/camera-settings.md
+    - Detection Stream Styling: rapid-vision/detection-stream-styling.md
+  - RapiD Vision Explorer:
+    - Overview: rapid-vision-explorer/index.md
+    - Filters: rapid-vision-explorer/filters.md
+    - Sorting: rapid-vision-explorer/sorting.md
+    - Reporting: rapid-vision-explorer/reporting.md
+    - Settings: rapid-vision-explorer/settings.md
+    - Analytics: rapid-vision-explorer/analytics.md
+    - Alerts: rapid-vision-explorer/alerts.md
+  - RapiD Vision API:
+    - Overview: rapid-vision-api/index.md
+    - Batch: rapid-vision-api/batch.md
+    - Invoice: rapid-vision-api/invoice.md
+    - InvoiceRule: rapid-vision-api/invoicerule.md
+    - Products: rapid-vision-api/products.md
