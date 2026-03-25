@@ -1,6 +1,6 @@
-# Welcome to RapiD Engineering Documentation
+# Welcome to RapiD Vision Documentation
 
-This documentation covers the RapiD Engineering suite of products.
+This documentation covers the RapiD Vision suite of products.
 
 ## Products
 
