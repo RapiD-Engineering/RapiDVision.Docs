@@ -1,10 +1,12 @@
-site_name: RapiD Engineering Documentation
+site_name: RapiD Vision Documentation
 site_url: https://rapidvision.com
-repo_url: https://github.com/RapiD-Engineering/RapiDVision
-repo_name: RapiD-Engineering/RapiDVision
+repo_url: https://github.com/RapiD-Engineering/RapiDVision.Docs
+repo_name: RapiD-Engineering/RapiDVision.Docs
 docs_dir: docs
 
 theme:
+  font:
+    code: Red Hat Mono
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.ico
@@ -32,13 +34,29 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.code.annotate
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RapiD-Engineering/RapiDVision.Docs
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/rapidengineering/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@rapidengineering2055
+
+copyright: Copyright &copy; 2026 RapiD Engineering, Inc. All rights reserved. RapiD Vision is a trademark of RapiD Engineering, Inc.
+
+
 plugins:
   - search
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -52,6 +70,11 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
   - Home: index.md

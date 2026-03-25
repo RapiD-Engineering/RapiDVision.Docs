@@ -1,0 +1,14 @@
+/* Add favicon before top-level grouped navigation items. */
+.md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--nested > .md-nav__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--nested > .md-nav__link::before {
+  content: "";
+  width: 0.95rem;
+  height: 0.95rem;
+  flex: 0 0 0.95rem;
+  background: url("../favicon.ico") center / contain no-repeat;
+}
