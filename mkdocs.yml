@@ -66,10 +66,16 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - tables
   - admonition
   - pymdownx.details
   - attr_list
   - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -97,9 +103,9 @@ nav:
     - Alerts: rapid-vision-explorer/alerts.md
   - RapiD Vision API:
     - Overview: rapid-vision-api/index.md
-    - Batch: rapid-vision-api/batch.md
     - Invoice: rapid-vision-api/invoice.md
     - InvoiceRule: rapid-vision-api/invoicerule.md
+    - Batch: rapid-vision-api/batch.md
     - Products: rapid-vision-api/products.md
   - Maintenance:
     - Overview: maintenance/index.md
