@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://rapid-engineering.github.io/RapiDVision.Docs/rapid-vision/">
+        <link rel="canonical" href="https://rapid-engineering.github.io/RapiDVision.Docs/rapid-vision-streaming-api/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../rapid-vision-explorer/alerts/">
       
       
-        <link rel="next" href="camera-calibration/">
+        <link rel="next" href="receiving-weight-data/">
       
       
         
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rapid-vision" class="md-skip">
+        <a href="#rapid-vision-streaming-api" class="md-skip">
           Skip to content
         </a>
       
@@ -284,8 +284,6 @@
       
   
   
-    
-  
   
   
     
@@ -318,15 +316,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../rapid-vision/" class="md-nav__link ">
               
   
   
@@ -344,13 +344,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -370,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="camera-calibration/" class="md-nav__link">
+      <a href="../rapid-vision/camera-calibration/" class="md-nav__link">
         
   
   
@@ -398,7 +398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="connecting-a-robot/" class="md-nav__link">
+      <a href="../rapid-vision/connecting-a-robot/" class="md-nav__link">
         
   
   
@@ -426,7 +426,7 @@
   
   
     <li class="md-nav__item">
-      <a href="calibrating-a-robot/" class="md-nav__link">
+      <a href="../rapid-vision/calibrating-a-robot/" class="md-nav__link">
         
   
   
@@ -454,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="encoder-info/" class="md-nav__link">
+      <a href="../rapid-vision/encoder-info/" class="md-nav__link">
         
   
   
@@ -482,7 +482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting-recipes/" class="md-nav__link">
+      <a href="../rapid-vision/sorting-recipes/" class="md-nav__link">
         
   
   
@@ -510,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="camera-settings/" class="md-nav__link">
+      <a href="../rapid-vision/camera-settings/" class="md-nav__link">
         
   
   
@@ -538,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="detection-stream-styling/" class="md-nav__link">
+      <a href="../rapid-vision/detection-stream-styling/" class="md-nav__link">
         
   
   
@@ -826,6 +826,8 @@
       
   
   
+    
+  
   
   
     
@@ -846,17 +848,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../rapid-vision-streaming-api/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   
@@ -874,13 +874,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+              <label class="md-nav__link md-nav__link--active" for="__nav_4" id="__nav_4_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -900,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rapid-vision-streaming-api/receiving-weight-data/" class="md-nav__link">
+      <a href="receiving-weight-data/" class="md-nav__link">
         
   
   
@@ -1162,8 +1162,8 @@
   
 
 
-<h1 id="rapid-vision">RapiD Vision</h1>
-<p>Documentation for RapiD Vision coming soon.</p>
+<h1 id="rapid-vision-streaming-api">RapiD Vision Streaming API</h1>
+<p>The RapiD Vision Streaming API allows external clients to connect to RapiDVision devices in real time via the SignalR-based relay server. Use this API to receive live data streams — such as weight data — from devices on your network.</p>
 
 
 
@@ -1199,7 +1199,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+          <a href="../rapid-vision-explorer/alerts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Alerts">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1209,20 +1209,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Home
+                Alerts
               </div>
             </div>
           </a>
         
         
           
-          <a href="camera-calibration/" class="md-footer__link md-footer__link--next" aria-label="Next: Camera Calibration">
+          <a href="receiving-weight-data/" class="md-footer__link md-footer__link--next" aria-label="Next: Receiving Weight Data">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Camera Calibration
+                Receiving Weight Data
               </div>
             </div>
             <div class="md-footer__button md-icon">

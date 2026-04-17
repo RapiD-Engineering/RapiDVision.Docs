@@ -95,6 +95,9 @@ nav:
     - Settings: rapid-vision-explorer/settings.md
     - Analytics: rapid-vision-explorer/analytics.md
     - Alerts: rapid-vision-explorer/alerts.md
+  - RapiD Vision Streaming API:
+    - Overview: rapid-vision-streaming-api/index.md
+    - Receiving Weight Data: rapid-vision-streaming-api/receiving-weight-data.md
   - RapiD Vision API:
     - Overview: rapid-vision-api/index.md
     - Batch: rapid-vision-api/batch.md
