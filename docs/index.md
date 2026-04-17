@@ -1,6 +1,6 @@
-# Welcome to RapiD Engineering Documentation
+# Welcome to RapiD Vision Documentation
 
-This documentation covers the RapiD Engineering suite of products.
+This documentation covers the RapiD Vision suite of products.
 
 ## Products
 
@@ -12,6 +12,9 @@ Advanced data exploration and analysis tool for vision system outputs.
 
 ### RapiD Vision API
 RESTful API and SignalR services for integration with RapiD Vision systems.
+
+### Maintenance
+Maintenance of RapiD Vision Systems
 
 ---
 
