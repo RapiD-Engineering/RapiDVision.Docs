@@ -100,8 +100,8 @@ nav:
     - Detection Stream Styling: rapid-vision/detection-stream-styling.md
   - RapiD Vision Explorer:
     - Overview: rapid-vision-explorer/index.md
+    - Data: rapid-vision-explorer/data.md
     - Reportfilters: rapid-vision-explorer/filters.md
-    - Sorting: rapid-vision-explorer/sorting.md
     - Reporting: rapid-vision-explorer/reporting.md
     - Settings: rapid-vision-explorer/settings.md
     - History: rapid-vision-explorer/history.md
@@ -111,9 +111,6 @@ nav:
     - Analytics: rapid-vision-explorer/analytics.md
     - Alerts: rapid-vision-explorer/alerts.md
     - Domains: rapid-vision-explorer/domains.md
-  - RapiD Vision Streaming API:
-    - Overview: rapid-vision-streaming-api/index.md
-    - Receiving Weight Data: rapid-vision-streaming-api/receiving-weight-data.md
   - RapiD Vision API:
     - Overview: rapid-vision-api/index.md
     - Invoice: rapid-vision-api/invoice.md
