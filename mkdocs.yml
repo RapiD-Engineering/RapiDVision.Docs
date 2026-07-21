@@ -88,6 +88,7 @@ nav:
     - Overview: rapid-vision/index.md
     - Camera Calibration: rapid-vision/camera-calibration.md
     - Connecting a Robot: rapid-vision/connecting-a-robot.md
+    - Lane Manager: rapid-vision/lane-manager.md
     - Calibrating a Robot: rapid-vision/calibrating-a-robot.md
     - Encoder Info: rapid-vision/encoder-info.md
     - Sorting Recipes: rapid-vision/sorting-recipes.md
@@ -114,4 +115,3 @@ nav:
     - Overview: maintenance/index.md
     - Troubleshooting: maintenance/troubleshooting.md
     - FAQ: maintenance/faq.md
-
