@@ -11,7 +11,7 @@ For delta pickers, triangulation is typically used to align vision coordinates w
 
 ## Calibration Steps
 
-1. Open **Lane Manager** from the navigation menu.
+1. Open **Lane Manager** from the navigation menu (labeled **Lanemanagement**).
 2. On the card for your vision system, find the tile for your **Robot** lane.
 3. Place 3 uniform items in the camera's field of view (rings are commonly used).
 4. On the robot lane's tile, select the **Calibrate robot** icon.
