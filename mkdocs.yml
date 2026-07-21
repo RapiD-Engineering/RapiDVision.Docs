@@ -86,6 +86,7 @@ nav:
   - Home: index.md
   - RapiD Vision:
     - Overview: rapid-vision/index.md
+    - Vision Configurations: rapid-vision/vision-configurations.md
     - Camera Calibration: rapid-vision/camera-calibration.md
     - Connecting a Robot: rapid-vision/connecting-a-robot.md
     - Calibrating a Robot: rapid-vision/calibrating-a-robot.md
@@ -114,4 +115,3 @@ nav:
     - Overview: maintenance/index.md
     - Troubleshooting: maintenance/troubleshooting.md
     - FAQ: maintenance/faq.md
-
