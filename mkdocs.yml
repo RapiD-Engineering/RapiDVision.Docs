@@ -99,8 +99,8 @@ nav:
     - Detection Stream Styling: rapid-vision/detection-stream-styling.md
   - RapiD Vision Explorer:
     - Overview: rapid-vision-explorer/index.md
+    - Data: rapid-vision-explorer/data.md
     - Filters: rapid-vision-explorer/filters.md
-    - Sorting: rapid-vision-explorer/sorting.md
     - Reporting: rapid-vision-explorer/reporting.md
     - Settings: rapid-vision-explorer/settings.md
     - Analytics: rapid-vision-explorer/analytics.md
