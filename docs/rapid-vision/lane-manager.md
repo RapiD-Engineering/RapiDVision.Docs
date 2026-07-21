@@ -2,7 +2,7 @@
 
 **Lane Manager** is where you configure and monitor the physical lanes (conveyors) connected to a vision system: adding and editing conveyors, calibrating robots, watching live status, and reviewing recipe log warnings.
 
-Open **Lane Manager** from the navigation menu. It shows one card per connected vision system. If no vision system is connected, the page shows a "No systems connected" message.
+Open **Lane Manager** from the navigation menu (labeled **Lanemanagement**). It shows one card per connected vision system. If no vision system is connected, the page shows a "No systems connected" message.
 
 Each system's card can be expanded or collapsed with the arrow in its header, and has three buttons:
 
