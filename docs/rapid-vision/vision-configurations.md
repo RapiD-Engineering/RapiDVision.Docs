@@ -91,7 +91,7 @@ Activating a configuration also reselects a sorting recipe for it — the one th
 
 ## Calibrating a Configuration
 
-Camera calibration is separate from the configuration editor and is done from **Settings** once a Classic-detector configuration is active. See [Camera Calibration](camera-calibration.md).
+Camera calibration is separate from the configuration editor and is done from **Options** once a Classic-detector configuration is active. See [Camera Calibration](camera-calibration.md).
 
 !!! note
     Adding, editing, and deleting configurations may not be available in every build — if the **Add**, **Edit**, or **Delete** buttons are greyed out for you, check with your system integrator. **Activate** and uploading configuration files are always available once a vision system is connected.
