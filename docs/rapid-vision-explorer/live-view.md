@@ -58,4 +58,4 @@ If a system's cabinet is open, or it's in eco mode, its tile replaces the video 
 
 ## Related Settings
 
-The appearance of detection overlays (bounding boxes, contours, colors, and similar) and camera exposure/gain/lighting aren't configured from Explorer — they're set on the RapiD Vision Desktop client, from **Options ▸ Style** and **Options ▸ Camera**. See [Detection Stream Styling](../rapid-vision/detection-stream-styling.md) and [Camera Settings](../rapid-vision/camera-settings.md).
+The appearance of detection overlays (bounding boxes, contours, colors, and similar) and camera exposure/gain/lighting aren't configured from Explorer — they're set on the RapiD Vision Desktop client, from [Options ▸ Style](../rapid-vision/options/style.md) and [Options ▸ Camera](../rapid-vision/options/camera.md).
