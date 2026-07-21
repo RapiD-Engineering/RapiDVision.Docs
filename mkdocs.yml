@@ -113,10 +113,9 @@ nav:
     - Domains: rapid-vision-explorer/domains.md
   - RapiD Vision API:
     - Overview: rapid-vision-api/index.md
-    - Invoice: rapid-vision-api/invoice.md
-    - InvoiceRule: rapid-vision-api/invoicerule.md
+    - Order: rapid-vision-api/order.md
+    - OrderRule: rapid-vision-api/orderrule.md
     - Batch: rapid-vision-api/batch.md
-    - Products: rapid-vision-api/products.md
   - Maintenance:
     - Overview: maintenance/index.md
     - Troubleshooting: maintenance/troubleshooting.md
