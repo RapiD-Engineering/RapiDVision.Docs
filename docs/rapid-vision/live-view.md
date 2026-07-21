@@ -55,4 +55,4 @@ If a system's cabinet is open, or it's in eco mode, its tile replaces the video 
 
 ## Related Settings
 
-The appearance of detection overlays (bounding boxes, contours, colors, and similar) is configured separately, from **Options ▸ Style** — see [Detection Stream Styling](detection-stream-styling.md). Camera exposure, gain, and lighting are configured from **Options ▸ Camera** — see [Camera Settings](camera-settings.md).
+The appearance of detection overlays (bounding boxes, contours, colors, and similar) is configured separately, from [Options ▸ Style](options/style.md). Camera exposure, gain, and lighting are configured from [Options ▸ Camera](options/camera.md).
