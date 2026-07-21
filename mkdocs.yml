@@ -86,25 +86,31 @@ nav:
   - Home: index.md
   - RapiD Vision:
     - Overview: rapid-vision/index.md
-    - Live View: rapid-vision/live-view.md
-    - Vision Configurations: rapid-vision/vision-configurations.md
+    - Home: rapid-vision/live-view.md
+    - Options: rapid-vision/options.md
+    - Configurations: rapid-vision/vision-configurations.md
     - Camera Calibration: rapid-vision/camera-calibration.md
     - Connecting a Robot: rapid-vision/connecting-a-robot.md
-    - Lane Manager: rapid-vision/lane-manager.md
+    - Lanemanagement: rapid-vision/lane-manager.md
     - Calibrating a Robot: rapid-vision/calibrating-a-robot.md
     - Encoder Info: rapid-vision/encoder-info.md
-    - Sorting Recipes: rapid-vision/sorting-recipes.md
+    - Sortings: rapid-vision/sorting-recipes.md
     - History: rapid-vision/history.md
     - Camera Settings: rapid-vision/camera-settings.md
     - Detection Stream Styling: rapid-vision/detection-stream-styling.md
   - RapiD Vision Explorer:
     - Overview: rapid-vision-explorer/index.md
-    - Filters: rapid-vision-explorer/filters.md
+    - Reportfilters: rapid-vision-explorer/filters.md
     - Sorting: rapid-vision-explorer/sorting.md
     - Reporting: rapid-vision-explorer/reporting.md
     - Settings: rapid-vision-explorer/settings.md
+    - History: rapid-vision-explorer/history.md
+    - Live View: rapid-vision-explorer/live-view.md
+    - Sorting Recipes: rapid-vision-explorer/sorting-recipes.md
+    - Configurations: rapid-vision-explorer/configurations.md
     - Analytics: rapid-vision-explorer/analytics.md
     - Alerts: rapid-vision-explorer/alerts.md
+    - Domains: rapid-vision-explorer/domains.md
   - RapiD Vision Streaming API:
     - Overview: rapid-vision-streaming-api/index.md
     - Receiving Weight Data: rapid-vision-streaming-api/receiving-weight-data.md
