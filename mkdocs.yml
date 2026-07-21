@@ -86,6 +86,7 @@ nav:
   - Home: index.md
   - RapiD Vision:
     - Overview: rapid-vision/index.md
+    - Live View: rapid-vision/live-view.md
     - Vision Configurations: rapid-vision/vision-configurations.md
     - Camera Calibration: rapid-vision/camera-calibration.md
     - Connecting a Robot: rapid-vision/connecting-a-robot.md
@@ -93,6 +94,7 @@ nav:
     - Calibrating a Robot: rapid-vision/calibrating-a-robot.md
     - Encoder Info: rapid-vision/encoder-info.md
     - Sorting Recipes: rapid-vision/sorting-recipes.md
+    - History: rapid-vision/history.md
     - Camera Settings: rapid-vision/camera-settings.md
     - Detection Stream Styling: rapid-vision/detection-stream-styling.md
   - RapiD Vision Explorer:
