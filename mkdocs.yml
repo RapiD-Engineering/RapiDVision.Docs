@@ -86,6 +86,7 @@ nav:
   - Home: index.md
   - RapiD Vision:
     - Overview: rapid-vision/index.md
+    - Vision Configurations: rapid-vision/vision-configurations.md
     - Camera Calibration: rapid-vision/camera-calibration.md
     - Connecting a Robot: rapid-vision/connecting-a-robot.md
     - Lane Manager: rapid-vision/lane-manager.md
