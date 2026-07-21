@@ -87,7 +87,13 @@ nav:
   - RapiD Vision:
     - Overview: rapid-vision/index.md
     - Home: rapid-vision/live-view.md
-    - Options: rapid-vision/options.md
+    - Options:
+      - Overview: rapid-vision/options/index.md
+      - Filters: rapid-vision/options/filters.md
+      - Camera: rapid-vision/options/camera.md
+      - Advanced: rapid-vision/options/advanced.md
+      - Lanes: rapid-vision/options/lanes.md
+      - Style: rapid-vision/options/style.md
     - Configurations: rapid-vision/vision-configurations.md
     - Camera Calibration: rapid-vision/camera-calibration.md
     - Connecting a Robot: rapid-vision/connecting-a-robot.md
@@ -96,8 +102,6 @@ nav:
     - Encoder Info: rapid-vision/encoder-info.md
     - Sortings: rapid-vision/sorting-recipes.md
     - History: rapid-vision/history.md
-    - Camera Settings: rapid-vision/camera-settings.md
-    - Detection Stream Styling: rapid-vision/detection-stream-styling.md
   - RapiD Vision Explorer:
     - Overview: rapid-vision-explorer/index.md
     - Data: rapid-vision-explorer/data.md
